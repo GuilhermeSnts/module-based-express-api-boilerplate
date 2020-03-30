@@ -1,0 +1,27 @@
+{
+  "name": "module-based-express-api-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for \"modular design\" on an express api",
+  "main": "index.js",
+  "repository": "https://github.com/GuilhermeSnts/module-based-express-api-boilerplate.git",
+  "author": "Guilherme Santos",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon -q index.js",
+    "start": "pm2 index.js --name SERVER"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.13",
+    "morgan": "^1.10.0"
+  }
+}
